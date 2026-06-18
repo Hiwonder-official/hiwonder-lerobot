@@ -9,14 +9,14 @@ English | [中文](docs/README_cn.md)
 
 ## What is this?
 
-[LeRobot](https://github.com/huggingface/lerobot) is a state-of-the-art robotics AI library by Hugging Face.  
-**Hiwonder** has adapted it to work with its own robot arms, adding:
+[Hiwonder LeRobot](https://github.com/Hiwonder-official/LeRobot) is Hiwonder's robotics AI library — a full-stack solution for imitation learning and robot manipulation, built on top of the LeRobot framework and optimized for Hiwonder arms.  
+It provides:
 
 - Motor drivers for **HX-30HM** 30 kg magnetic-encoder servos
 - Pre-tuned configurations for **SO-ARM101**, **SO-101**, **HopeJR**, and **LeKiwi**
 - Ready-to-run calibration, teleoperation, data-collection, training, and evaluation workflows
 
-This repository (`hiwonder-lerobot`) is the **single entry point**: it pulls in the right dependencies, exposes `hiwonder-*` CLI commands, and points you to every relevant resource.
+This repository (`hiwonder-lerobot`) is the **single entry point**: it installs [Hiwonder/LeRobot](https://github.com/Hiwonder-official/LeRobot) as its core dependency, exposes `hiwonder-*` CLI commands, and points you to every relevant resource.
 
 ---
 
@@ -207,4 +207,4 @@ All commands accept `--help` for full options.
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
-The underlying [LeRobot](https://github.com/huggingface/lerobot) library is licensed under the Apache 2.0 License.
+The underlying [Hiwonder LeRobot](https://github.com/Hiwonder-official/LeRobot) library is licensed under the Apache 2.0 License.

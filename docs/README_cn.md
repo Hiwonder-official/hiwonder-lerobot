@@ -9,14 +9,14 @@
 
 ## 这是什么？
 
-[LeRobot](https://github.com/huggingface/lerobot) 是 Hugging Face 开发的前沿机器人 AI 框架。  
-**幻尔（Hiwonder）** 对其进行了适配，主要增加：
+[幻尔 LeRobot](https://github.com/Hiwonder-official/LeRobot) 是幻尔推出的机器人 AI 全栈方案，专为幻尔机械臂优化，提供从硬件驱动到策略训练的完整工具链。  
+主要包含：
 
 - **HX-30HM** 30 kg 磁编码舵机驱动
 - **SO-ARM101、SO-101、HopeJR、LeKiwi** 的开箱即用配置
 - 完整的标定 → 遥操作 → 数据采集 → 训练 → 评估工作流
 
-本仓库（`hiwonder-lerobot`）是**唯一入口**：安装依赖、提供 `hiwonder-*` 命令行工具，并指向所有相关资源。
+本仓库（`hiwonder-lerobot`）是**唯一入口**：以 [Hiwonder/LeRobot](https://github.com/Hiwonder-official/LeRobot) 为核心依赖，提供 `hiwonder-*` 命令行工具，并指向所有相关资源。
 
 ---
 
