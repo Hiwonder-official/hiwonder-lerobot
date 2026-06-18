@@ -61,17 +61,17 @@ LeRobot/                   ← Hiwonder's LeRobot fork (installed as dependency)
 - [uv](https://docs.astral.sh/uv/) (recommended) or pip
 - A USB-connected Hiwonder arm (for hardware runs)
 
-### 1 — Clone and install (SO-ARM101 / SO-101)
+### 1 — Clone Hiwonder LeRobot and install (SO-ARM101 / SO-101)
 
 ```bash
-git clone https://github.com/Hiwonder-official/-hiwonder-lerobot.git
-cd hiwonder-lerobot
+git clone https://github.com/Hiwonder-official/LeRobot.git
+cd LeRobot
 
 # with uv (recommended — resolves the torch/lerobot dependency tree faster)
-uv pip install -e ".[so-arm101]"
+uv pip install -e ".[hiwonder]"
 
 # or with pip
-pip install -e ".[so-arm101]"
+pip install -e ".[hiwonder]"
 ```
 
 ### 2 — Other arms

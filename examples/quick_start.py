@@ -1,4 +1,9 @@
-"""Minimal example: connect to SO-ARM101 and read joint positions."""
+"""Minimal example: connect to SO-ARM101 and read joint positions.
+
+Prerequisites:
+    git clone https://github.com/Hiwonder-official/LeRobot.git
+    cd LeRobot && pip install -e ".[hiwonder]"
+"""
 
 from lerobot.robots.so_arm101 import SO_ARM101Config, SO_ARM101Robot
 

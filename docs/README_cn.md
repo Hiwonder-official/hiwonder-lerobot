@@ -39,17 +39,17 @@
 - [uv](https://docs.astral.sh/uv/)（推荐）或 pip
 - USB 连接的幻尔机械臂（硬件运行时需要）
 
-### 克隆并安装（SO-ARM101 / SO-101）
+### 克隆幻尔 LeRobot 并安装（SO-ARM101 / SO-101）
 
 ```bash
-git clone https://github.com/Hiwonder-official/-hiwonder-lerobot.git
-cd hiwonder-lerobot
+git clone https://github.com/Hiwonder-official/LeRobot.git
+cd LeRobot
 
 # 推荐使用 uv
-uv pip install -e ".[so-arm101]"
+uv pip install -e ".[hiwonder]"
 
 # 或使用 pip
-pip install -e ".[so-arm101]"
+pip install -e ".[hiwonder]"
 ```
 
 ### 其他机型
