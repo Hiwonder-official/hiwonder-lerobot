@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=71.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiwonder-lerobot"
+version = "0.1.0"
+description = "Entry point for Hiwonder LeRobot — robotics AI with Hiwonder arms (SO-ARM101, SO-101, HopeJR, LeKiwi)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Hiwonder", email = "support@hiwonder.com" },
+]
+keywords = ["robotics", "lerobot", "hiwonder", "imitation-learning", "manipulation", "ai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Robotics",
+]
+
+# Core runtime dependency — install the Hiwonder LeRobot fork
+dependencies = [
+    "lerobot[hiwonder] @ git+https://github.com/Hiwonder-official/LeRobot.git@main",
+]
+
+[project.urls]
+Homepage    = "https://github.com/Hiwonder-official/-hiwonder-lerobot"
+Repository  = "https://github.com/Hiwonder-official/LeRobot"
+Issues      = "https://github.com/Hiwonder-official/-hiwonder-lerobot/issues"
+Website     = "https://www.hiwonder.com/"
+Tutorial    = "https://www.hiwonder.com.cn/store/learn/185.html"
+
+[project.optional-dependencies]
+# Hardware extras — pass through to the underlying lerobot package
+so-arm101 = [
+    "lerobot[hiwonder] @ git+https://github.com/Hiwonder-official/LeRobot.git@main",
+    "pyserial>=3.5,<4.0",
+]
+hopejr = [
+    "lerobot[hopejr] @ git+https://github.com/Hiwonder-official/LeRobot.git@main",
+]
+lekiwi = [
+    "lerobot[lekiwi] @ git+https://github.com/Hiwonder-official/LeRobot.git@main",
+]
+# Full install — all supported arms + simulation extras
+all = [
+    "hiwonder-lerobot[so-arm101]",
+    "hiwonder-lerobot[hopejr]",
+    "hiwonder-lerobot[lekiwi]",
+]
+# Developer tooling
+dev = [
+    "pre-commit>=3.7.0,<5.0.0",
+    "pytest>=8.1.0,<9.0.0",
+    "pytest-timeout>=2.4.0,<3.0.0",
+]
+
+[project.scripts]
+# Convenience wrappers — delegate to lerobot CLI commands
+hiwonder-calibrate    = "hiwonder_lerobot.cli:calibrate"
+hiwonder-teleoperate  = "hiwonder_lerobot.cli:teleoperate"
+hiwonder-record       = "hiwonder_lerobot.cli:record"
+hiwonder-replay       = "hiwonder_lerobot.cli:replay"
+hiwonder-train        = "hiwonder_lerobot.cli:train"
+hiwonder-eval         = "hiwonder_lerobot.cli:eval"
+hiwonder-find-port    = "hiwonder_lerobot.cli:find_port"
+hiwonder-setup-motors = "hiwonder_lerobot.cli:setup_motors"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hiwonder_lerobot = ["py.typed"]
