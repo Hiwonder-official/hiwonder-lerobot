@@ -12,8 +12,6 @@ It provides:
 - Out-of-the-box configurations for **SO-ARM101**, **SO-101**, **HopeJR**, and **LeKiwi**
 - A comprehensive workflow spanning calibration, teleoperation, data collection, training, and evaluation.
 
-This repository (`hiwonder-lerobot`) is the **single entry point**: it installs [Hiwonder/LeRobot](https://github.com/Hiwonder-official/LeRobot) as its core dependency, exposes `hiwonder-*` CLI commands, and points you to every relevant resource.
-
 Our goal is to help robotics developers deploy algorithms on physical robotic arms faster and at lower cost.
 
 ---
