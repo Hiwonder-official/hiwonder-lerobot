@@ -6,6 +6,8 @@ Built on top of LeRobot, [Hiwonder LeRobot](https://github.com/Hiwonder-official
 
 At Hiwonder, we've spent years designing and manufacturing robotics hardware. Along the way, we realized that great hardware is only the starting point. The real challenge is helping developers efficiently collect data, train policies, and deploy models to physical robots. That's why we built the LeRobot framework with Hiwonder hardware to deliver this out-of-the-box open-source AI framework.
 
+It provides:
+
 - Integrated drivers for HX-30HM 30 kg magnetic encoder servos.
 - Out-of-the-box configurations for **SO-ARM101**, **SO-101**, **HopeJR**, and **LeKiwi**
 - A comprehensive workflow spanning calibration, teleoperation, data collection, training, and evaluation.
