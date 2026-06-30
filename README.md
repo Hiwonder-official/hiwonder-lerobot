@@ -1,6 +1,6 @@
 
 
-## About hiwonder-lerobot
+## About Hiwonder-Lerobot
 
 Built on top of LeRobot, [Hiwonder LeRobot](https://github.com/Hiwonder-official/LeRobot) is an open-source AI framework that covers the entire pipeline from data collection and model training to deployment. 
 It provides:
