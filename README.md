@@ -1,22 +1,19 @@
-# hiwonder-lerobot
 
-English | [中文](docs/README_cn.md)
 
-> **The official entry point for Hiwonder's LeRobot robotics AI stack.**  
-> If you are new here, start from this repository — it explains what the project is, which arms are supported, how to install everything, and how to run your first example.
+## About hiwonder-lerobot
 
----
-
-## What is this?
-
-[Hiwonder LeRobot](https://github.com/Hiwonder-official/LeRobot) is Hiwonder's robotics AI library — a full-stack solution for imitation learning and robot manipulation, built on top of the LeRobot framework and optimized for Hiwonder arms.  
+Built on top of LeRobot, [Hiwonder LeRobot](https://github.com/Hiwonder-official/LeRobot) is an open-source AI framework that covers the entire pipeline from data collection and model training to deployment. 
 It provides:
 
-- Motor drivers for **HX-30HM** 30 kg magnetic-encoder servos
-- Pre-tuned configurations for **SO-ARM101**, **SO-101**, **HopeJR**, and **LeKiwi**
-- Ready-to-run calibration, teleoperation, data-collection, training, and evaluation workflows
+At Hiwonder, we've spent years designing and manufacturing robotics hardware. Along the way, we realized that great hardware is only the starting point. The real challenge is helping developers efficiently collect data, train policies, and deploy models to physical robots. That's why we built the LeRobot framework with Hiwonder hardware to deliver this out-of-the-box open-source AI framework.
+
+- Integrated drivers for HX-30HM 30 kg magnetic encoder servos.
+- Out-of-the-box configurations for **SO-ARM101**, **SO-101**, **HopeJR**, and **LeKiwi**
+- A comprehensive workflow spanning calibration, teleoperation, data collection, training, and evaluation.
 
 This repository (`hiwonder-lerobot`) is the **single entry point**: it installs [Hiwonder/LeRobot](https://github.com/Hiwonder-official/LeRobot) as its core dependency, exposes `hiwonder-*` CLI commands, and points you to every relevant resource.
+
+Our goal is to help robotics developers deploy algorithms on physical robotic arms faster and at lower cost.
 
 ---
 
