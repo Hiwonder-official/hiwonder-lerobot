@@ -206,7 +206,7 @@ A big thank you to our community builders! Here are some projects built on top o
 ### 🤖 Project A: Self-Service Meal Dispensing Machine
 
 <p align="center">
-  <img src="./sources/1.png" alt="lerobot 1" width="600"/>
+  <img src="./sources/001.png" alt="lerobot 1" width="600"/>
 </p>
 
 **Author**: Brock
