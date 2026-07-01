@@ -199,6 +199,47 @@ All commands accept `--help` for full options.
 
 ---
 
+## 🌟 Community Showcase
+
+A big thank you to our community builders! Here are some projects built on top of Hiwonder robotic arms. Want to see yours here? Open a PR or Issue and we'll take a look.
+
+### 🤖 Project A: Self-Service Meal Dispensing Machine
+
+<p align="center">
+  <img src="./sources/1.png" alt="lerobot 1" width="600"/>
+</p>
+
+**Author**: Brock
+
+
+---
+
+### 🦾 Project B: Automatic Ball Collector
+
+<p align="center">
+  <img src="./sources/02.png" alt="lerobot 2" width="600"/>
+</p>
+
+**Author**: Rian
+
+---
+
+### 🦾 Project C: Origami Robotic Arm
+
+<p align="center">
+  <img src="./sources/3.png" alt="lerobot 3" width="600"/>
+</p>
+
+**Author**: Sloan
+
+---
+
+📢 **Showcase Your Work**
+
+Built something cool with a Hiwonder robot? Submit your project name, screenshot, and GitHub repo link via [Issue](https://github.com/Hiwonder-official/hiwonder-lerobot/issues) or Pull Request. We'd love to feature it here!
+
+---
+
 ## License
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
