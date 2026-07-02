@@ -174,7 +174,7 @@ python examples/quick_start.py
 | Hiwonder official website | https://www.hiwonder.com/ |
 | Product page (SO-ARM101) | https://www.hiwonder.com/products/lerobot-so-101 |
 | Full documentation | https://www.hiwonder.com.cn/store/learn/185.html |
-| Video tutorial | https://www.youtube.com/watch?v=oitT8geMat0 |
+| Video | https://www.youtube.com/watch?v=oitT8geMat0 |
 | LeRobot fork source | https://github.com/Hiwonder-official/LeRobot |
 | Upstream LeRobot (HuggingFace) | https://github.com/huggingface/lerobot |
 | Hugging Face Hub (datasets & models) | https://huggingface.co/lerobot |
